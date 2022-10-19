@@ -38,6 +38,7 @@ Please, do not forget to call `plugin.cleanpu()` to remove temporary files.
     username: '<proxy_username>', 
     password: '<proxy_password>',
     proxyType: '<proxy_type>',
+    //proxyType: 'ex: http, https, socks5',
     tempDir:  './temp' 
   };
   return new ProxyPlugin({
@@ -69,6 +70,7 @@ Disable Proxy
     username: '0', 
     password: '0',
     proxyType: '<proxy_type>',
+    //proxyType: 'ex: http, https, socks5',
     tempDir:  './temp' 
   };
   return new ProxyPlugin({
@@ -117,13 +119,4 @@ More info along with working examples may be found in `examples` subdirectory.
 
 ## Credits
 [Alexander](https://github.com/alykoshin/)
-
-
-# Links to package pages:
-
-[github.com](https://github.com/alykoshin/selenium-chrome-proxy-plugin) &nbsp; [npmjs.com](https://www.npmjs.com/package/selenium-chrome-proxy-plugin) &nbsp; [travis-ci.org](https://travis-ci.org/alykoshin/selenium-chrome-proxy-plugin) &nbsp; [coveralls.io](https://coveralls.io/github/alykoshin/selenium-chrome-proxy-plugin) &nbsp; [inch-ci.org](https://inch-ci.org/github/alykoshin/selenium-chrome-proxy-plugin)
-
-
-## License
-
-MIT
+[hieuhayho](https://github.com/hieuhayho/)
