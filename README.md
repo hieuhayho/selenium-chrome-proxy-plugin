@@ -1,7 +1,3 @@
-[![Dependency Status](https://david-dm.org/alykoshin/selenium-chrome-proxy-plugin/status.svg)](https://david-dm.org/alykoshin/selenium-chrome-proxy-plugin#info=dependencies)
-[![devDependency Status](https://david-dm.org/alykoshin/selenium-chrome-proxy-plugin/dev-status.svg)](https://david-dm.org/alykoshin/selenium-chrome-proxy-plugin#info=devDependencies)
-
-
 # selenium-chrome-proxy-plugin
 
 Chrome plugin generator for setting private proxies to use with Selenium
@@ -17,7 +13,7 @@ If you have different needs regarding the functionality, please add a [feature r
 ## Installation
 
 ```sh
-npm install git+https://github.com/hieuhayho/ffmpeg-extract-frames.git
+npm install git+https://github.com/hieuhayho/selenium-chrome-proxy-plugin.git
 ```
 
 ## Usage
