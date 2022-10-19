@@ -60,6 +60,37 @@ Please, do not forget to call `plugin.cleanpu()` to remove temporary files.
     ;
 ```
 
+Disable Proxy
+
+```js
+  const proxyConfig = {
+    host: '0',
+    port: '0', 
+    username: '0', 
+    password: '0',
+    proxyType: '<proxy_type>',
+    tempDir:  './temp' 
+  };
+  return new ProxyPlugin({
+    proxyConfig: proxyConfig
+    //chromeOptions: chromeOptions,
+  })
+    .then((plugin) => {
+      console.log('PLUGIN READY');
+      return new webdriver.Builder()
+        .forBrowser('chrome')
+        .setChromeOptions(plugin.chromeOptions)
+        .build()
+        .then((driver) => plugin.cleanup()
+           .then(() => driver.get('http://whatismyip.host/'))
+           .then(() => console.log('DONE'))
+        )
+        ;
+    })
+    .catch((err) => console.log('ERROR:', err))
+    ;
+```
+
 It is also possible to provide `chromeOptions`:
 
 ```js 
