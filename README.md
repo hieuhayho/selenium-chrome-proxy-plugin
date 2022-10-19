@@ -23,7 +23,7 @@ If you have different needs regarding the functionality, please add a [feature r
 ## Installation
 
 ```sh
-npm install --save selenium-chrome-proxy-plugin
+npm install git+https://github.com/hieuhayho/ffmpeg-extract-frames.git
 ```
 
 ## Usage
@@ -47,6 +47,7 @@ Please, do not forget to call `plugin.cleanpu()` to remove temporary files.
     port: '<proxy_port>', 
     username: '<proxy_username>', 
     password: '<proxy_password>',
+    proxyType: '<proxy_type>',
     tempDir:  './temp' 
   };
   return new ProxyPlugin({
