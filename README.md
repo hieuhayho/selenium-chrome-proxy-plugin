@@ -1,9 +1,3 @@
-[![npm version](https://badge.fury.io/js/selenium-chrome-proxy-plugin.svg)](http://badge.fury.io/js/selenium-chrome-proxy-plugin)
-[![Build Status](https://travis-ci.org/alykoshin/selenium-chrome-proxy-plugin.svg)](https://travis-ci.org/alykoshin/selenium-chrome-proxy-plugin)
-[![Coverage Status](https://coveralls.io/repos/alykoshin/selenium-chrome-proxy-plugin/badge.svg?branch=master&service=github)](https://coveralls.io/github/alykoshin/selenium-chrome-proxy-plugin?branch=master)
-[![Code Climate](https://codeclimate.com/github/alykoshin/selenium-chrome-proxy-plugin/badges/gpa.svg)](https://codeclimate.com/github/alykoshin/selenium-chrome-proxy-plugin)
-[![Inch CI](https://inch-ci.org/github/alykoshin/selenium-chrome-proxy-plugin.svg?branch=master)](https://inch-ci.org/github/alykoshin/selenium-chrome-proxy-plugin)
-
 [![Dependency Status](https://david-dm.org/alykoshin/selenium-chrome-proxy-plugin/status.svg)](https://david-dm.org/alykoshin/selenium-chrome-proxy-plugin#info=dependencies)
 [![devDependency Status](https://david-dm.org/alykoshin/selenium-chrome-proxy-plugin/dev-status.svg)](https://david-dm.org/alykoshin/selenium-chrome-proxy-plugin#info=devDependencies)
 
